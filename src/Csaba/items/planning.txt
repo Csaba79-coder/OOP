@@ -1,0 +1,25 @@
+Items:
+
+Glass:
+- color (String)
+- size (int)
+- material (String)
+- pattern (String)
+
+Speaker:
+- color (String)
+- type (String)
+- manufacturer (String)
+
+Mouse:
+- dpi (int)
+- color (String)
+- isWired (boolean)
+- RGB (boolean) // led light or not
+
+Book:
+- title (String)
+- writer (String)
+- pages (int)
+- isEbook (boolean)
+
