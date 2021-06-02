@@ -1,4 +1,4 @@
-package Csaba.items;
+package items;
 
 public class Mouse {
     private int DPI;

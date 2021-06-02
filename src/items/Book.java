@@ -1,4 +1,4 @@
-package Csaba.items;
+package items;
 
 public class Book {
     private String title;

@@ -1,9 +1,6 @@
-package Csaba;
+package items;
 
-import Csaba.items.Book;
-import Csaba.items.Glass;
-import Csaba.items.Mouse;
-import Csaba.items.Speaker;
+import items.*;
 
 public class Main {
 
@@ -32,6 +29,11 @@ public class Main {
         book.setWriter("Agathe Christie");
         book.setPages(256);
         book.setEbook(false);
+        // -----------------------------------
+        Computer computer = new Computer();
+        Computer.setMemoryCapacity(4);
+        computer.setColor("black");
+        computer.setPiecesOfMonitors(1);
 
 
         System.out.println("-----Glass-----");
@@ -42,6 +44,8 @@ public class Main {
         mouse.printInfo();
         System.out.println("-----Book------");
         book.printInfo();
+        System.out.println("----Computer----");
+        computer.printInfo();
     }
 
     public static void printMaterial(Glass glass) {
