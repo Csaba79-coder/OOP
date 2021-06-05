@@ -51,4 +51,9 @@ public class Stove {
             array[i].setState(previousState + " and cooked");
         }
     }
+
+
+    public void concassé(Tomato item, Knife knife) {
+        item.setState("peeled and " + knife.useKnife());
+    }
 }

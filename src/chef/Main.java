@@ -1,6 +1,5 @@
 package chef;
 
-import java.util.Arrays;
 
 public class Main {
     /**
@@ -46,7 +45,9 @@ public class Main {
         onion.setState(knife.state);
         sausage.setState(knife.useKnife());
         egg.setState(knife.useKnife());
-        tomato.setState(knife.useKnife());
+        electricStove.concassé(tomato, knife);
+
+
 
         Ingredients[] lecsóS = {tomato, paprikaHot, paprikaSweet, onion, egg, sausage, salt, pepper, water, oil, paprikaPowder};
         electricStove.cook(lecsóS);
@@ -54,5 +55,7 @@ public class Main {
         for (int i = 0; i < lecsóS.length; i++) {
             System.out.println(lecsóS[i].getName() + " " + lecsóS[i].getState());
         }
+
+
     }
 }

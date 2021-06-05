@@ -16,4 +16,6 @@ public class Tomato extends Ingredients{
     public void setColor(String color) {
         this.color = color;
     }
+
+
 }
