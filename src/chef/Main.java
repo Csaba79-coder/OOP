@@ -55,6 +55,8 @@ public class Main {
         for (int i = 0; i < lecsóS.length; i++) {
             System.out.println(lecsóS[i].getName() + " " + lecsóS[i].getState());
         }
+
+        
         System.out.println("\n-----------------\n");
         System.out.println("Lecsó is ready :)");
     }
