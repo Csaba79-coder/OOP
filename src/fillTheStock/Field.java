@@ -3,7 +3,16 @@ package fillTheStock;
 
 public class Field {
 
-    Tomato tomatoFromField = new Tomato("tomatoFromField", "black", 10000, "kg", 0.5, "black", true);
+    Tomato tomatoFromField;
+
+    // Tomato tomatoFromField = new Tomato("tomatoFromField", "black", 0, "kg", 0.5, "black", true);
+
+
+    public Field(double quantity) {
+        this.tomatoFromField = new Tomato("tomatoFromField", "black", 0, "kg", 0.5, "black", true);
+        this.tomatoFromField.setQuantity(quantity);
+    }
+
 
     public void getHarvest(Tomato tomato, double requiredQuantity) {
         double currentQuantity = tomato.getQuantity();

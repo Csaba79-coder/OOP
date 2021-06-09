@@ -2,8 +2,15 @@ package fillTheStock;
 
 public class WholesalerCo {
 
-    Tomato tomatoAtWholesaler = new Tomato("tomatoFromField", "black", 0, "kg", 0.5, "black", true);
 
+    Tomato tomatoAtWholesaler;
+
+    // Tomato tomatoAtWholesaler = new Tomato("tomatoAtWholesaler", "black", 0, "kg", 0.5, "black", true);
+
+    public WholesalerCo(double quantity) {
+        this.tomatoAtWholesaler = new Tomato("tomatoAtWholesaler", "black", 0, "kg", 0.5, "black", true);
+        this.tomatoAtWholesaler.setQuantity(quantity);
+    }
 
     public void getTransportationToTheShop(Tomato tomato, double requiredQuantity) {
         double currentQuantity = tomato.getQuantity();

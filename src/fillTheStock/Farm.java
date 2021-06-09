@@ -2,8 +2,13 @@ package fillTheStock;
 
 public class Farm {
 
-    Tomato tomatoFromFarm = new Tomato("tomato", "black", 1000, "kg", 0.5, "black", true);
+    Tomato tomatoFromFarm;
+    // Tomato tomatoFromFarm = new Tomato("tomatoFromFarm", "black", 1000, "kg", 0.5, "black", true);
 
+    public Farm(double quantity) {
+        this.tomatoFromFarm = new Tomato("tomatoFromFarm", "black", 1000, "kg", 0.5, "black", true);
+        this.tomatoFromFarm.setQuantity(quantity);
+    }
 
     public void getTransportation(Tomato tomato, double requiredQuantity) {
         double currentQuantity = tomato.getQuantity();
