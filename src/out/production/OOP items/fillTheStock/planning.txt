@@ -1,0 +1,26 @@
+Product:
+
+1. name
+2. type
+3. quantity
+4. quantityUnit
+5. priceUnit
+6. total
+
+
+Farm
+
+- fruits
+- vegetables
+
+- milk products
+- meat
+- egg
+
+
+Van
+
+- capacity
+
+
+
