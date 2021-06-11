@@ -1,6 +1,8 @@
-package chef;
+package chef.ingredients.rawmaterial;
 
-public class Tomato extends Ingredients{
+import chef.ingredients.Ingredients;
+
+public class Tomato extends Ingredients {
 
     private String color;
 

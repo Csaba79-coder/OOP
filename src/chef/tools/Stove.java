@@ -1,4 +1,7 @@
-package chef;
+package chef.tools;
+
+import chef.ingredients.Ingredients;
+import chef.ingredients.rawmaterial.Tomato;
 
 public class Stove {
     private String name;

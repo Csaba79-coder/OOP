@@ -1,4 +1,4 @@
-package chef;
+package chef.ingredients;
 
 public class Ingredients {
 

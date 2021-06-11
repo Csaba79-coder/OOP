@@ -1,4 +1,6 @@
-package chef;
+package chef.ingredients.spices;
+
+import chef.ingredients.Ingredients;
 
 public class Pepper extends Ingredients {
     private String color;

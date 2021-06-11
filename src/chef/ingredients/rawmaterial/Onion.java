@@ -1,4 +1,6 @@
-package chef;
+package chef.ingredients.rawmaterial;
+
+import chef.ingredients.Ingredients;
 
 public class Onion extends Ingredients {
 

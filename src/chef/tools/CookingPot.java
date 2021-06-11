@@ -1,4 +1,4 @@
-package chef;
+package chef.tools;
 
 public class CookingPot extends Tools {
 

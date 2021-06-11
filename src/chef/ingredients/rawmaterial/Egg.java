@@ -1,4 +1,6 @@
-package chef;
+package chef.ingredients.rawmaterial;
+
+import chef.ingredients.Ingredients;
 
 public class Egg extends Ingredients {
     private String type;

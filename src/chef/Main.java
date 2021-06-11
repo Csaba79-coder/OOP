@@ -1,6 +1,12 @@
 package chef;
 
 
+import chef.ingredients.*;
+import chef.ingredients.rawmaterial.*;
+import chef.ingredients.spices.Pepper;
+import chef.ingredients.spices.Salt;
+import chef.tools.*;
+
 public class Main {
     /**
      * Create a program which can handle ingredients, spices and kitchen tools.
@@ -49,12 +55,13 @@ public class Main {
 
 
 
-        Ingredients[] lecsoS = {tomato, paprikaHot, paprikaSweet, onion, egg, sausage, salt, pepper, water, oil, paprikaPowder};
-        electricStove.cook(lecsoS);
+        Ingredients[] lecsos = {tomato, paprikaHot, paprikaSweet, onion, egg, sausage, salt, pepper, water, oil, paprikaPowder};
+        electricStove.cook(lecsos);
 
-        for (Ingredients lecso : lecsoS) {
+        for (Ingredients lecso : lecsos) {
             System.out.println(lecso.getName() + " " + lecso.getState());
         }
+
 
 
         System.out.println("\n-----------------\n");

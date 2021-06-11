@@ -1,6 +1,8 @@
-package chef;
+package chef.ingredients.rawmaterial;
 
-public class Sausage extends  Ingredients {
+import chef.ingredients.Ingredients;
+
+public class Sausage extends Ingredients {
 
     private String type;
     private boolean isSmoked;
