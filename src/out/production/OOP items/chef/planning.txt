@@ -1,5 +1,7 @@
 PLAN
 
+next to the src in a doc package (not in the source!)
+
 Ingredients:
 
 - paprika // cut

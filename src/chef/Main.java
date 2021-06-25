@@ -48,7 +48,7 @@ public class Main {
 
         paprikaHot.setState(knife.useKnife()); //  because it is not a private!
         paprikaSweet.setState(knife.useKnife()); //  because it is not a private!
-        onion.setState(knife.state);
+        onion.setState(knife.useKnife());
         sausage.setState(knife.useKnife());
         egg.setState(knife.useKnife());
         electricStove.concassé(tomato, knife);
